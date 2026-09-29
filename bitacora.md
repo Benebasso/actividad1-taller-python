@@ -74,6 +74,6 @@ Cambiaría el valor por defecto del parámetro, por ejemplo `def generar_informe
 
 _Completar durante la hora de la tarea: qué cambié, en qué parte del código, por qué y cómo lo verifiqué._
 
-1.
-2.
-3.
+   1 Rol analista: saqué PONDERA y ANO4 de columnas_interes. Verificado: generar_informe("analista") devuelve MAS_500, AGLOMERADO, TRIMESTRE.
+   2 Agregué la columna NIVEL_ED (int, 88%). Aparece en el informe sin rol, pero no en los roles, porque ninguno la tiene en columnas_interes.
+   3 filter() y map(): ya los usaba en generar_informe() y para obtener los nombres. Ventajas frente al for: más cortos, no hay que crear la lista a mano y se combinan con sorted().

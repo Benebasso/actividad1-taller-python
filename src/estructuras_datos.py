@@ -11,6 +11,7 @@ columnas = [
     {"nombre": "ITF", "tipo": "int", "completitud": 70},
     {"nombre": "MAS_500", "tipo": "string", "completitud": 88},
     {"nombre": "GDECCFR", "tipo": "int", "completitud": 65},
+        {"nombre": "NIVEL_ED", "tipo": "int", "completitud": 88},
 ]
 
 
@@ -31,7 +32,7 @@ roles = {
         "completitud_minima": 70,
     },
     "analista": {
-        "columnas_interes": ["PONDERA", "AGLOMERADO", "MAS_500", "ANO4", "TRIMESTRE"],
+        "columnas_interes": ["AGLOMERADO", "MAS_500", "TRIMESTRE"],
         "orden_por": "completitud",
         "direccion": "A",
     },

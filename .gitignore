@@ -4,3 +4,6 @@ __pycache__/
 *.dmg
 *.pkg
 archivos/
+.DS_Store
+actividad1.py
+*.pdf
